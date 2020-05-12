@@ -2,7 +2,7 @@ $primary: #444;
 $secondary: #fff;
 $bgcolor: violet;
 $font-family: 'Roboto', sans-serif;
-$padding50px: padding-top 50px;
+$padding50px: 50px;
 
 
 body {
@@ -14,4 +14,8 @@ h1 {
 
 h2 {
     color: $primary
+}
+
+p {
+    padding-top: $padding50px;
 }
